@@ -1,6 +1,4 @@
-import { min, uniq } from 'lodash';
 import mongoose from 'mongoose';
-import { BiObjectsHorizontalCenter } from 'react-icons/bi';
 
 const userSchema = new mongoose.Schema({
     email : {type: String, required: true, unique: true},
